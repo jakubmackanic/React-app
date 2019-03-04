@@ -30,7 +30,7 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">React App</NavbarBrand>
+          <NavbarBrand href="/home" to="/home">React App</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -45,11 +45,11 @@ export default class Navigation extends React.Component {
                   Options
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem href= "/carousel" to="/carousel">
-                    Option 1
+                  <DropdownItem href= "/clock" to="/clock">
+                    Clock
                   </DropdownItem>
-                  <DropdownItem>
-                    Option 2
+                  <DropdownItem href= "/trump"to="/trump">
+                    Trump Quotes
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>

@@ -21,18 +21,13 @@ class Trump extends Component {
   }
   render() {
     return(
-      <Router>
       <div>
-      <Nav/>
 <h1> Famous Trump quotes</h1>
 <p> {this.state.quote!==null && this.state.quote.message} </p>
 <div className="wrapper">
 <button className="button" onClick={this.getNewQuote}>Get new Quote!</button>
       </div>
-      <Route path="/Carousel" component={Carousel} />
       </div>
-
-      </Router>
     );
   }
 }
