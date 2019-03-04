@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Carousel from './Components/Carousel';
-import './css/App.css';
-import Nav from './Components/Nav';
-class App extends Component {
+class Trump extends Component {
   constructor(props){
     super(props);
     this.state={
@@ -40,4 +36,4 @@ class App extends Component {
     );
   }
 }
-export default App;
+export default Trump;

@@ -42,3 +42,11 @@ button {
 .wrapper{
   text-align: center;
 }
+
+#root{
+	background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+nav{
+	display: flex;
+}
