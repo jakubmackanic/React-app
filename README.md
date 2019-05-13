@@ -1,1 +1,1 @@
-﻿This is my first react app using Axios library for API which generates random Donald Trump quotes, React router and reactstrap with Clock UI<br> To run the app on localhost, use npm start.
+This app shows my understanding of core react principles like components, API calls, using third party modules and react router with reactstrap.<br>To run the app on localhost, use npm start.
